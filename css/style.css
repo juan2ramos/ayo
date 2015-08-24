@@ -1,0 +1,548 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('fonts/fontello.eot?28770033');
+    src: url('fonts/fontello.eot?28770033#iefix') format('embedded-opentype'),
+    url('fonts/fontello.woff?28770033') format('woff'),
+    url('fonts/fontello.ttf?28770033') format('truetype'),
+    url('fonts/fontello.svg?28770033#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.demo-icon {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+
+}
+
+a {
+    color: #584d40;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+body, h2, h3, h4, p {
+    font-weight: 300
+}
+
+*:focus {
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*=================================================================
+header
+===================================================================*/
+header {
+    background-size: cover;
+    box-shadow: 0 1px 0px #4485d1;
+    color: #144D90;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.content-header {
+    background: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    padding: 22px;
+    position: relative;
+    z-index: 2;
+}
+
+.header-bar {
+    margin: auto;
+    max-width: 70rem;
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-shadow: -1px 1px 1px #B0B0B0;
+}
+
+.nav ul {
+    text-align: right;
+}
+
+.logo, .nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+}
+
+.nav {
+    width: 69%;
+}
+
+.nav li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    padding-left: 1.5rem;
+}
+
+.nav a {
+    color: #144D90;
+}
+
+.nav a.current {
+    background: #144D90;
+    border-radius: 10rem;
+    color: white;
+    padding: 0.4rem 1.2rem;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+#banner {
+    display: block;
+    width: 100%;
+}
+
+#banner .item {
+    background-size: cover;
+    height: calc(100vh - 135px);
+    width: 100%;
+}
+
+.subscribe {
+    background: #fff;
+    color: #144D90;
+    bottom: 0;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    width: 100%
+}
+
+.subscribe-wrapper {
+    margin: auto;
+    max-width: 70rem;
+    padding: 0 22px;
+    width: 100%
+}
+
+.subscribe-wrapper a {
+    color: #144D90;
+}
+
+.subscribe-wrapper a:hover {
+    color: #4485d1;
+}
+
+.contact-li {
+    border: 1px solid;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.network {
+    float: right;
+}
+
+.network li {
+    display: inline-block;
+}
+
+input::after {
+    content: "Read this -";
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    color: #F00;
+}
+
+.subscribe-form {
+    margin: 0 auto;
+    max-width: 70rem;
+}
+
+.arrow {
+    max-width: 25px;
+    margin: auto;
+    position: relative;
+    top: -20px;
+}
+
+.features li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+    margin-right: -3px;
+}
+
+.features {
+    max-width: 60rem;
+    margin: 80px auto 100px;
+}
+
+.features b {
+    color: #144D90;
+    font-weight: 400;
+    padding: 13px;
+    display: block;
+    font-size: .9rem;
+}
+
+.features span {
+    box-shadow: 0 4px 1px #CBCBCB;
+    border-radius: 50%;
+    color: #4485D1;
+    font-size: 2rem;
+    width: 148px;
+    height: 148px;
+    line-height: 148px;
+    display: block;
+    margin: auto;
+
+}
+
+hr {
+    border: medium none;
+    box-shadow: 0px 1px 0px #4485D1;
+    height: 1px;
+}
+
+.column-2 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -2px;
+}
+
+.compromiso {
+    max-width: 70rem;
+    margin: auto;
+    padding: 22px;
+}
+
+.compromiso h2 {
+    color: #144D90;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.compromiso p {
+    text-align: left;
+    font-size: 1.15rem;
+    margin-right: 50px;
+    color: #144D90;
+    line-height: 1.5em;
+
+}
+
+.compromiso figure {
+    margin-left: 70px;
+}
+
+.testimonials {
+    background: #4485D1;
+    color: white;
+    position: relative;
+    top: -40px;
+    z-index: -1;
+}
+
+.testimonials h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 40px;
+}
+
+.testimonials-c {
+    max-width: 50rem;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.testimonials-c article {
+    background: #FFF;
+    color: #144D90;
+    margin: 0 22px 20px;
+    padding: 2rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 6px 0 #3871B6;
+}
+
+.testimonials-foot figure {
+    max-width: 80px;
+    margin: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.testimonials-foot figcaption {
+    font-size: .9rem;
+    color: #144D90;
+    font-weight: 500;
+}
+
+.testimonials-foot figcaption span {
+    display: block;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.testimonials-foot figcaption {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.arrow-testimonial {
+    position: absolute;
+    top:0;
+    right:15px;
+}
+.arrow-testimonial span{
+    font-weight: 900;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 2rem;
+}
+
+.testimonials-foot figure img {
+    border-radius: 50%;
+}
+
+.testimonials-foot {
+    margin: 33px 0 0;
+    position: relative;
+}
+
+.triangulo_top_left, .triangulo_top_left:before {
+    width: 0;
+    height: 0;
+    border-top: 25px solid #3871B6;
+    border-right: 25px solid transparent;
+    position: absolute;
+    bottom: -25px;
+    left: 50px;
+}
+
+.triangulo_top_left:before {
+    content: '';
+    border-top: 25px solid #fff;
+    top: -33px;
+    left: 0;
+
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+.owl-carousel .animated {
+    -webkit-animation-duration: 1000ms;
+    animation-duration: 1000ms;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.owl-carousel .owl-animated-in {
+    z-index: 0;
+}
+
+.owl-carousel .owl-animated-out {
+    z-index: 1;
+}
+
+.owl-carousel .fadeOut {
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl-height {
+    -webkit-transition: height 500ms ease-in-out;
+    -moz-transition: height 500ms ease-in-out;
+    -ms-transition: height 500ms ease-in-out;
+    -o-transition: height 500ms ease-in-out;
+    transition: height 500ms ease-in-out;
+}
+
+/*
+ *  Core Owl Carousel CSS File
+ */
+.owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    /* position relative and z-index fix webkit rendering fonts issue */
+    position: relative;
+    z-index: 1;
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+}
+
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-prev,
+.owl-carousel .owl-controls .owl-nav .owl-next,
+.owl-carousel .owl-controls .owl-dot {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel.owl-loading {
+    opacity: 0;
+    display: block;
+}
+
+.owl-carousel.owl-hidden {
+    opacity: 0;
+}
+
+.owl-carousel .owl-refresh .owl-item {
+    display: none;
+}
+
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+}
+
+.owl-carousel.owl-text-select-on .owl-item {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+}
+
+.owl-carousel .owl-grab {
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: -o-grab;
+    cursor: -ms-grab;
+    cursor: grab;
+}
+
+.owl-carousel.owl-rtl {
+    direction: rtl;
+}
+
+.owl-carousel.owl-rtl .owl-item {
+    float: right;
+}
+
+/* No Js */
+.no-js .owl-carousel {
+    display: block;
+}
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease;
+    -moz-transition: opacity 400ms ease;
+    -ms-transition: opacity 400ms ease;
+    -o-transition: opacity 400ms ease;
+    transition: opacity 400ms ease;
+}
+
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+}
+
