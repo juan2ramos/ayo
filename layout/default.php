@@ -59,15 +59,16 @@
 </head>
 <body>
 <header>
-
+    <?php echo $url?>
     <div class="content-header">
         <div class="header-bar">
              <h1 class="logo"><a href="/">ALFA & OMEGA</a></h1>
             <nav class="nav">
                 <ul>
-                    <li><a href="servicios" <?php if($url == 'ayo/servicios') echo 'class="current"'?>>Servicios</a></li>
-                    <li><a href="nosotros" <?php if($url == 'ayo/nosotros') echo 'class="current"'?>> Nosotros</a></li>
-                    <li><a href="garantia" <?php if($url == 'ayo') echo 'class="current"'?>>Garantia</a></li>
+                    <li><a href="servicios" <?php if($url == '/servicios') echo 'class="current"'?>>Servicios</a></li>
+                    <li><a href="ventas" <?php if($url == '/ventas') echo 'class="current"'?>> Ventas</a></li>
+                    <li><a href="nosotros" <?php if($url == '/nosotros') echo 'class="current"'?>> Nosotros</a></li>
+                    <li><a href="garantia" <?php if($url == '/garantia') echo 'class="current"'?>>Garantia</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="contacto" class="contact-li <?php if($url == '/contacto') echo 'current'?>">Contacto</a></li>
                 </ul>
@@ -92,6 +93,14 @@
                 <li><img src="images/lg-logo.png" alt=""></li>
                 <li><img src="images/sony-logo.png" alt=""></li>
                 <li><img src="images/toshiba-logo.png" alt=""></li>
+                <li><img src="images/elo-logo.png" alt=""></li>
+                <li><img src="images/aoc-logo.png" alt=""></li>
+                <li><img src="images/genius-logo.png" alt=""></li>
+                <li><img src="images/viewsonic-logo.png" alt=""></li>
+                <li><img src="images/asus-logo.png" alt=""></li>
+                <li><img src="images/dell-logo.png" alt=""></li>
+                <li><img style="max-width: 60%;" src="images/hp-logo.png" alt=""></li>
+                <li><img src="images/lenovo-logo.png" alt=""></li>
             </ul>
         </div>
     </div>
@@ -117,7 +126,11 @@
 <script src="js/script.js"></script>
 
 <?php if ( $url == '/contacto' ):?> <script src="js/map.js"></script><?php endif?>
-
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+    (function(){ var widget_id = 'zDDYmUsPAg';
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
 
 </body>
 </html>

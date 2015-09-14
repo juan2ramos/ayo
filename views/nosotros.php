@@ -2,7 +2,7 @@
     <article class="article">
 
         <figure class="article-figure">
-            <img src="images/banner2.jpg" alt="">
+            <img style="width: 100%;" src="images/1.jpg" alt="">
         </figure>
         <div class="content-article">
             <h2> NOSOTROS </h2>
@@ -39,12 +39,12 @@
                 funcionamiento a un costo razonable.</p>
         </div>
         <figure class="article-figure left">
-            <img src="images/banner2.jpg" alt="">
+            <img style="width: 100%;" src="images/2.jpg" alt="">
         </figure>
     </article>
     <article class="article">
         <figure class="article-figure">
-            <img src="images/banner2.jpg" alt="">
+            <img style="width: 100%;" src="images/3.jpg" alt="">
         </figure>
         <div class="content-article">
             <h2>NUESTRA VISIÓN</h2>

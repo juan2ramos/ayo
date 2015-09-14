@@ -377,7 +377,7 @@ hr {
 }
 .article{
 
-    background: #3871B6;
+    background: #fff;
 }
 .article-figure,.content-article{
     display: inline-block;
@@ -390,21 +390,24 @@ hr {
 .content-article h2{
     padding: 20px 3.5rem;
     font-weight: 600;
-    background: #326BB0;
+    background: rgb(249, 249, 249);
+    color: rgb(56, 113, 182);
 }
 .content-article p{
+    font-size: 1.1rem;
     text-align: justify;
-    padding: 1.5rem 3.5rem ;
+    padding: 1rem 2rem ;
     line-height: 1.3em;
+    color: rgb(56, 113, 182);
 }
 
 .article-figure:before {
     position: absolute;
     content: "";
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     border-top: 20px solid transparent;
-    border-right: 40px solid #3871B6;
+    border-right: 40px solid #fff;
     border-bottom: 20px solid transparent;
     z-index: 1;
     top: calc(50% - 20px);
@@ -605,7 +608,7 @@ hr {
     vertical-align: middle;
     margin: 10px;
     line-height: 0;
-    width: 90px;
+    width: 50px;
 
 }
 .contact{
@@ -706,6 +709,7 @@ hr {
     display: inline-block;
     vertical-align: middle;
     width: 32%;
+    padding: 1rem;
 }
 
 .warranty h2, .warranty h3{
@@ -718,6 +722,33 @@ hr {
     text-align: left;
     color: #326BB0;
 }
+.warranty .content-li{
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px #AAA;
+}
 .warranty img{
     width: inherit;
+}
+.sales p{
+    font-size: 1.1rem;
+    line-height: 1.2em;
+}
+.sales a{
+    color: #326BB0;
+    font-weight: 400;
+}
+.content-li figure{
+    max-width: 120px;
+    margin: 5px;
+    height: 50px;
+}
+.call{
+    text-align: center;
+}
+.call figure{
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
 }
