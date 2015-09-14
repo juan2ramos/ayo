@@ -62,14 +62,14 @@
 
     <div class="content-header">
         <div class="header-bar">
-            <div class="logo">ALFA&OMEGA</div>
+             <h1 class="logo"><a href="/">ALFA & OMEGA</a></h1>
             <nav class="nav">
                 <ul>
-                    <li><a href="" class="current">Nosotros</a></li>
-                    <li><a href="">Servicios</a></li>
-                    <li><a href="">Garantia</a></li>
+                    <li><a href="servicios" <?php if($url == '/servicios') echo 'class="current"'?>>Servicios</a></li>
+                    <li><a href="nosotros" <?php if($url == '/nosotros') echo 'class="current"'?>> Nosotros</a></li>
+                    <li><a href="garantia" <?php if($url == '/garantia') echo 'class="current"'?>>Garantia</a></li>
                     <li><a href="">Blog</a></li>
-                    <li><a href="" class="contact-li">Contacto</a></li>
+                    <li><a href="contacto" class="contact-li <?php if($url == '/contacto') echo 'current'?>">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -84,10 +84,20 @@
     </div>
 
 
-
+    <div class="brand">
+        <div class="brand-wrapper">
+            <ul>
+                <li><img src="../images/samsung-logo.png" alt=""></li>
+                <li><img src="../images/acer-logo.png" alt=""></li>
+                <li><img src="../images/lg-logo.png" alt=""></li>
+                <li><img src="../images/sony-logo.png" alt=""></li>
+                <li><img src="../images/toshiba-logo.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
     <div class="subscribe">
         <div class="subscribe-wrapper">
-            <a href="mailto:info@alfomega.com"><i class="demo-icon icon-phone">&#xe804;</i>info@alfomega.com</a> -
+            <a href="mailto:soporte@alfomega.com"><i class="demo-icon icon-phone">&#xe804;</i>soporte@alfomega.com</a> -
             <a href="tel:634 89 91"><i class="demo-icon icon-mobile">&#xe805;</i>(57) 1 634 89 91</a>
             <ul class="network">
                 <li><a href=""><i class="demo-icon icon-mobile">&#xe800;</i></a></li>
@@ -101,8 +111,13 @@
 <?php include $fileName; ?>
 
 <!-- JavaScript -->
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=1.0'></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/owl.js"></script>
 <script src="js/script.js"></script>
+
+<?php if ( $url == '/contacto' ):?> <script src="js/map.js"></script><?php endif?>
+
+
 </body>
 </html>
