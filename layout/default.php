@@ -61,7 +61,7 @@
 <header>
     <div class="content-header">
         <div class="header-bar">
-             <h1 class="logo"><a href="/">ALFA & OMEGA</a></h1>
+             <h1 class="logo"><a href="home">ALFA & OMEGA</a></h1>
             <nav class="nav">
                 <ul>
                     <li><a href="servicios" <?php if($url == 'servicios') echo 'class="current"'?>>Servicios</a></li>
