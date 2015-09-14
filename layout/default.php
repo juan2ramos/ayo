@@ -59,18 +59,17 @@
 </head>
 <body>
 <header>
-    <?php echo $url?>
     <div class="content-header">
         <div class="header-bar">
              <h1 class="logo"><a href="/">ALFA & OMEGA</a></h1>
             <nav class="nav">
                 <ul>
-                    <li><a href="servicios" <?php if($url == '/servicios') echo 'class="current"'?>>Servicios</a></li>
-                    <li><a href="ventas" <?php if($url == '/ventas') echo 'class="current"'?>> Ventas</a></li>
-                    <li><a href="nosotros" <?php if($url == '/nosotros') echo 'class="current"'?>> Nosotros</a></li>
-                    <li><a href="garantia" <?php if($url == '/garantia') echo 'class="current"'?>>Garantia</a></li>
+                    <li><a href="servicios" <?php if($url == 'servicios') echo 'class="current"'?>>Servicios</a></li>
+                    <li><a href="ventas" <?php if($url == 'ventas') echo 'class="current"'?>> Ventas</a></li>
+                    <li><a href="nosotros" <?php if($url == 'nosotros') echo 'class="current"'?>> Nosotros</a></li>
+                    <li><a href="garantia" <?php if($url == 'garantia') echo 'class="current"'?>>Garantia</a></li>
                     <li><a href="">Blog</a></li>
-                    <li><a href="contacto" class="contact-li <?php if($url == '/contacto') echo 'current'?>">Contacto</a></li>
+                    <li><a href="contacto" class="contact-li <?php if($url == 'contacto') echo 'current'?>">Contacto</a></li>
                 </ul>
             </nav>
         </div>
