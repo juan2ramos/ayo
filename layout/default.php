@@ -65,9 +65,9 @@
              <h1 class="logo"><a href="/">ALFA & OMEGA</a></h1>
             <nav class="nav">
                 <ul>
-                    <li><a href="servicios" <?php if($url == '/servicios') echo 'class="current"'?>>Servicios</a></li>
-                    <li><a href="nosotros" <?php if($url == '/nosotros') echo 'class="current"'?>> Nosotros</a></li>
-                    <li><a href="garantia" <?php if($url == '/garantia') echo 'class="current"'?>>Garantia</a></li>
+                    <li><a href="servicios" <?php if($url == 'ayo/servicios') echo 'class="current"'?>>Servicios</a></li>
+                    <li><a href="nosotros" <?php if($url == 'ayo/nosotros') echo 'class="current"'?>> Nosotros</a></li>
+                    <li><a href="garantia" <?php if($url == 'ayo') echo 'class="current"'?>>Garantia</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="contacto" class="contact-li <?php if($url == '/contacto') echo 'current'?>">Contacto</a></li>
                 </ul>
@@ -87,11 +87,11 @@
     <div class="brand">
         <div class="brand-wrapper">
             <ul>
-                <li><img src="../images/samsung-logo.png" alt=""></li>
-                <li><img src="../images/acer-logo.png" alt=""></li>
-                <li><img src="../images/lg-logo.png" alt=""></li>
-                <li><img src="../images/sony-logo.png" alt=""></li>
-                <li><img src="../images/toshiba-logo.png" alt=""></li>
+                <li><img src="images/samsung-logo.png" alt=""></li>
+                <li><img src="images/acer-logo.png" alt=""></li>
+                <li><img src="images/lg-logo.png" alt=""></li>
+                <li><img src="images/sony-logo.png" alt=""></li>
+                <li><img src="images/toshiba-logo.png" alt=""></li>
             </ul>
         </div>
     </div>
