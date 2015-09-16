@@ -132,8 +132,7 @@
 <script src="js/owl.js"></script>
 <script src="js/script.js"></script>
 
-<?php if ($url == 'contacto'): ?>
-    <script src="js/map.js"></script><?php endif ?>
+<?php if ($url == 'contacto'): ?> <script src="js/map.js"></script> <?php endif ?>
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
     (function () {
