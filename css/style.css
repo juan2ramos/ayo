@@ -913,6 +913,7 @@ hr {
 
     .service-wrapper, .video {
         width: 100%;
+        padding-right: 0;
     }
     .products li {
         width: 100%;
