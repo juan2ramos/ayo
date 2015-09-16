@@ -25,7 +25,7 @@
 
                 directamente de los fabricantes, Ciclos de pruebas de calidad en cualquier tipo
 
-                de reparación, y la experiencia de más de 28 años en el medio.</p>
+                de reparación, y la experiencia de más de 26 años en el medio.</p>
         </div>
     </article>
     <article class="article">

@@ -75,7 +75,7 @@ header {
     background: #FFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin: 0 auto;
-    padding: 22px;
+    padding: 17px;
     position: relative;
     z-index: 2;
 }
@@ -87,12 +87,17 @@ header {
 }
 
 .logo {
-    font-family: georgia,palatino,"book antiqua","palatino linotype",serif;
-    font-size: 1.6rem;
+    font-family: georgia, palatino, "book antiqua", "palatino linotype", serif;
+    font-size: 1.2rem;
     font-weight: bold;
-    text-shadow: 0 1px 1px #6D8BB0;
+    text-shadow: 0 1px 1px #A4A4A4;
 }
-.logo a{
+.logo span {
+    display: block;
+    font-size: .81em;
+}
+
+.logo a {
 
     color: #144D90;
 }
@@ -133,6 +138,27 @@ header {
     text-decoration: underline;
 }
 
+@media (max-width: 800px ) {
+    .nav {
+        top: 0;
+        right: 0;
+        width: 160px;
+        background: #FFF ;
+        padding: 23px 16px;
+        z-index: 1000;
+        position: fixed;
+        box-shadow: 2px -1px 6px black;
+    }
+    .nav li{
+        display: block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px;
+    }
+    .logo{
+        width: 100%;
+    }
+}
 #banner {
     display: block;
     width: 100%;
@@ -144,7 +170,7 @@ header {
     width: 100%;
 }
 
-.subscribe,.brand {
+.subscribe, .brand {
     background: #fff;
     color: #144D90;
     bottom: 0;
@@ -154,12 +180,20 @@ header {
     position: absolute;
     width: 100%
 }
-.brand{
+
+.brand {
     box-shadow: 0px 1px 0px #4485D1;
     bottom: 60px;
     z-index: 1;
 }
-
+@media (max-width: 800px ) {
+    .brand{
+        display: none;
+    }
+    .mail{
+        display: none;
+    }
+}
 .subscribe-wrapper {
     margin: auto;
     max-width: 70rem;
@@ -215,6 +249,12 @@ input::after {
     vertical-align: middle;
     width: 25%;
     margin-right: -3px;
+}
+
+@media (max-width: 800px ) {
+    .features li {
+        width: 50%;
+    }
 }
 
 .features {
@@ -289,6 +329,23 @@ hr {
     z-index: -1;
 }
 
+@media (max-width: 800px ) {
+    .column-2 {
+        width: 100%;
+    }
+
+    .column-2 p {
+        text-align: justify;
+        margin-right: 0;
+    }
+
+    .compromiso figure {
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
 .testimonials h3 {
     text-align: center;
     font-size: 1.5rem;
@@ -339,10 +396,11 @@ hr {
 
 .arrow-testimonial {
     position: absolute;
-    top:0;
-    right:15px;
+    top: 0;
+    right: 15px;
 }
-.arrow-testimonial span{
+
+.arrow-testimonial span {
     font-weight: 900;
     border-radius: 50%;
     padding: 4px;
@@ -375,28 +433,41 @@ hr {
     left: 0;
 
 }
-.article{
+
+.article {
 
     background: #fff;
 }
-.article-figure,.content-article{
+
+.article-figure, .content-article {
     display: inline-block;
     color: white;
     vertical-align: top;
-    margin-left:-3px ;
+    margin-left: -3px;
     position: relative;
     width: calc(50% + 1px);
 }
-.content-article h2{
+
+@media (max-width: 800px) {
+    .article-figure, .content-article {
+
+        width: 100%;
+        text-align: center;
+        padding: 10px 5%;
+    }
+}
+
+.content-article h2 {
     padding: 20px 3.5rem;
     font-weight: 600;
     background: rgb(249, 249, 249);
     color: rgb(56, 113, 182);
 }
-.content-article p{
+
+.content-article p {
     font-size: 1.1rem;
     text-align: justify;
-    padding: 1rem 2rem ;
+    padding: 1rem 2rem;
     line-height: 1.3em;
     color: rgb(56, 113, 182);
 }
@@ -413,6 +484,7 @@ hr {
     top: calc(50% - 20px);
     right: -20px;
 }
+
 .article-figure.left:before {
     transform: rotate(180deg);
     left: -20px;
@@ -597,13 +669,14 @@ hr {
     transform-style: preserve-3d;
 }
 
-.brand-wrapper{
+.brand-wrapper {
     margin: auto;
     max-width: 70rem;
     width: 100%;
     text-align: center;
 }
-.brand-wrapper li{
+
+.brand-wrapper li {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
@@ -611,15 +684,18 @@ hr {
     width: 50px;
 
 }
-.contact{
+
+.contact {
     position: relative;
 }
-.contact a{
+
+.contact a {
     color: #326BB0;
     font-size: 1.3rem;
     font-weight: 600;
 }
-.form-contact{
+
+.form-contact {
     position: absolute;
     top: 2rem;
     left: 6rem;
@@ -631,7 +707,14 @@ hr {
     font-weight: 600;
     color: #326BB0;
 }
-.form-contact input, .form-contact textarea{
+@media (max-width: 800px) {
+    .form-contact {
+        left: 10% !important;
+        width: 80% !important;
+    }
+}
+
+.form-contact input, .form-contact textarea {
     display: block;
     border: 1px solid #326BB0;
     padding: 10px;
@@ -640,114 +723,156 @@ hr {
     padding: 10px;
     margin: 10px 0;
 }
-#map-canvas{
+
+#map-canvas {
     width: 100%;
     height: 600px;
 }
-.submit{
+
+.submit {
     width: 100%;
     text-align: right;
 }
-.submit button{
+
+.submit button {
     padding: .6rem 1.2rem;
     border: 1px solid #326BB0;
     background: #326BB0;
     color: white;
 }
 
-.service{
+.service {
     margin: 4rem auto;
     max-width: 70rem;
     width: 100%;
     text-align: left;
 }
-.service h2, .service h3{
+
+@media (max-width: 800px ) {
+    .service {
+        margin: 4rem 5%;
+        text-align: justify;
+        width: inherit;
+    }
+}
+
+.service h2, .service h3 {
     color: #326BB0;
     font-weight: 400;
     font-size: 1.2rem;
 }
-.service h3{
+
+.service h3 {
     margin: 1rem 0;
 }
-.service p{
+
+.service p {
     color: #326BB0;
 }
-.service-wrapper, .video{
-    display:inline-block;
+
+.service-wrapper, .video {
+    display: inline-block;
     width: 49%;
-    padding-right: 1rem ;
+    padding-right: 1rem;
     vertical-align: middle;
 }
-.video{
+
+.video {
     height: 300px;
 }
-.products li{
+
+.products li {
     display: inline-block;
     width: 24%;
     padding: 1rem 0;
 }
-.products li svg,.products li p{
+
+.products li svg, .products li p {
     display: inline;
     width: 20px;
     vertical-align: middle;
 }
-.benefit li{
+
+.benefit li {
     width: 50%;
     display: inline-block;
     color: #326BB0;
     padding: .8rem 0;
     margin-right: -3px;
 }
-.warranty{
+
+.warranty {
 
     margin: auto;
     max-width: 70rem;
     width: 100%;
     text-align: left;
 }
-.warranty li{
+
+.warranty li {
     display: inline-block;
     vertical-align: middle;
     width: 32%;
     padding: 1rem;
 }
 
-.warranty h2, .warranty h3{
+.warranty h2, .warranty h3 {
     color: #326BB0;
     font-weight: 400;
     font-size: 1.5rem;
     margin: 2rem 0 .8rem;
 }
-.warranty p{
+
+.warranty p {
     text-align: left;
     color: #326BB0;
 }
-.warranty .content-li{
+
+.warranty .content-li {
     height: 150px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 1px 6px #AAA;
 }
-.warranty img{
+
+.warranty img {
     width: inherit;
 }
-.sales p{
+
+@media (max-width: 800px) {
+    .warranty {
+        padding: 0 5%;
+    }
+
+    .warranty li {
+        display: inline-block;
+        vertical-align: middle;
+        width: 49%;
+        padding: .3rem;
+    }
+}
+
+.sales p {
     font-size: 1.1rem;
     line-height: 1.2em;
 }
-.sales a{
+
+.sales a {
     color: #326BB0;
     font-weight: 400;
 }
-.content-li figure{
+
+.content-li figure {
     max-width: 120px;
     margin: 5px;
     height: 50px;
 }
-.call{
+
+.call {
     text-align: center;
 }
-.call figure{
+
+.call figure {
     max-width: 150px;
     display: inline-block;
     vertical-align: middle;

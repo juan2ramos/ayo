@@ -61,7 +61,7 @@
 <header>
     <div class="content-header">
         <div class="header-bar">
-             <h1 class="logo"><a href="home">ALFA & OMEGA</a></h1>
+             <h1 class="logo"><a href="home">ALFA & OMEGA <span>Sistemas y Servicios</span></a></h1>
             <nav class="nav">
                 <ul>
                     <li><a href="servicios" <?php if($url == 'servicios') echo 'class="current"'?>>Servicios</a></li>
@@ -105,12 +105,12 @@
     </div>
     <div class="subscribe">
         <div class="subscribe-wrapper">
-            <a href="mailto:soporte@alfomega.com"><i class="demo-icon icon-phone">&#xe804;</i>soporte@alfomega.com</a> -
+            <a href="mailto:soporte@alfomega.com"><i class="demo-icon icon-phone">&#xe804;</i><span class="mail">soporte@alfomega.com</span></a> -
             <a href="tel:634 89 91"><i class="demo-icon icon-mobile">&#xe805;</i>(57) 1 634 89 91</a>
             <ul class="network">
                 <li><a href=""><i class="demo-icon icon-mobile">&#xe800;</i></a></li>
-                <li><a href=""><i class="demo-icon icon-mobile">&#xe801;</i></a></li>
-                <li><a href=""><i class="demo-icon icon-mobile">&#xe802;</i></a></li>
+                <!--<li><a href=""><i class="demo-icon icon-mobile">&#xe801;</i></a></li>
+                <li><a href=""><i class="demo-icon icon-mobile">&#xe802;</i></a></li>-->
                 <li><a href=""><i class="demo-icon icon-mobile">&#xe803;</i></a></li>
             </ul>
         </div>
