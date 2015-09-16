@@ -28,7 +28,7 @@
                 de reparación, y la experiencia de más de 26 años en el medio.</p>
         </div>
     </article>
-    <article class="article">
+    <article class="article middle">
         <div class="content-article">
             <h2>NUESTRA MISIÓN</h2>
 

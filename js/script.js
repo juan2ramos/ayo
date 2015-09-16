@@ -1,6 +1,8 @@
 $(function () {
 
-
+    $('.menu-mobile').on('click', function () {
+        $('.nav').toggleClass('show');
+    });
     /* Form */
     $('#form').on("submit", function (e) {
         e.preventDefault();

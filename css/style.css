@@ -140,8 +140,11 @@ header {
 
 @media (max-width: 800px ) {
     .nav {
+        transition: all .5s ;
+        -moz-transition: all .5s ;
+        -webkit-transition: all .5s ;
         top: 0;
-        right: 0;
+        right: -165px;
         width: 160px;
         background: #FFF ;
         padding: 23px 16px;
@@ -182,11 +185,33 @@ header {
 }
 
 .brand {
-    box-shadow: 0px 1px 0px #4485D1;
+    box-shadow: 0 1px 0 #4485D1;
     bottom: 60px;
     z-index: 1;
 }
+.menu-mobile{
+    display: none;
+}
 @media (max-width: 800px ) {
+
+    .menu-mobile{
+        background: #FFF ;
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: -55px;
+        padding: 4px 2px;
+        border-radius: 2px;
+        box-shadow: 0px 0px 1px #656565;
+        cursor: pointer;
+    }
+
+    .menu-mobile div{
+        width: 30px;
+        background: #326BB0 ;
+        margin: 5px;
+        height: 3px;
+    }
     .brand{
         display: none;
     }
@@ -454,6 +479,7 @@ hr {
         width: 100%;
         text-align: center;
         padding: 10px 5%;
+        overflow: hidden;
     }
 }
 
@@ -777,6 +803,7 @@ hr {
     vertical-align: middle;
 }
 
+
 .video {
     height: 300px;
 }
@@ -876,4 +903,29 @@ hr {
     max-width: 150px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.show{
+    right: 0;
+}
+
+@media (max-width: 800px) {
+
+    .service-wrapper, .video {
+        width: 100%;
+    }
+    .products li {
+        width: 100%;
+        font-size: .8rem;
+    }
+    .benefit li{
+        width: 100%;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle figure{
+        order: -1;
+    }
 }

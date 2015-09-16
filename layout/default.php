@@ -61,15 +61,22 @@
 <header>
     <div class="content-header">
         <div class="header-bar">
-             <h1 class="logo"><a href="home">ALFA & OMEGA <span>Sistemas y Servicios</span></a></h1>
+            <h1 class="logo"><a href="home">ALFA & OMEGA <span>Sistemas y Servicios</span></a></h1>
             <nav class="nav">
+
+        <span class="menu-mobile">
+            <div></div>
+            <div></div>
+            <div></div>
+        </span>
                 <ul>
-                    <li><a href="servicios" <?php if($url == 'servicios') echo 'class="current"'?>>Servicios</a></li>
-                    <li><a href="ventas" <?php if($url == 'ventas') echo 'class="current"'?>> Ventas</a></li>
-                    <li><a href="nosotros" <?php if($url == 'nosotros') echo 'class="current"'?>> Nosotros</a></li>
-                    <li><a href="garantia" <?php if($url == 'garantia') echo 'class="current"'?>>Garantia</a></li>
+                    <li><a href="servicios" <?php if ($url == 'servicios') echo 'class="current"' ?>>Servicios</a></li>
+                    <li><a href="ventas" <?php if ($url == 'ventas') echo 'class="current"' ?>> Ventas</a></li>
+                    <li><a href="nosotros" <?php if ($url == 'nosotros') echo 'class="current"' ?>> Nosotros</a></li>
+                    <li><a href="garantia" <?php if ($url == 'garantia') echo 'class="current"' ?>>Garantia</a></li>
                     <li><a href="">Blog</a></li>
-                    <li><a href="contacto" class="contact-li <?php if($url == 'contacto') echo 'current'?>">Contacto</a></li>
+                    <li><a href="contacto"
+                           class="contact-li <?php if ($url == 'contacto') echo 'current' ?>">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -78,8 +85,8 @@
 
     <div id="banner" class="owl-carousel owl-theme">
 
-        <div class="item"  style="background-image: url('images/banner2.jpg') "></div>
-        <div class="item"  style="background-image: url('images/banner.jpg') "></div>
+        <div class="item" style="background-image: url('images/banner2.jpg') "></div>
+        <div class="item" style="background-image: url('images/banner.jpg') "></div>
 
     </div>
 
@@ -105,7 +112,8 @@
     </div>
     <div class="subscribe">
         <div class="subscribe-wrapper">
-            <a href="mailto:soporte@alfomega.com"><i class="demo-icon icon-phone">&#xe804;</i><span class="mail">soporte@alfomega.com</span></a> -
+            <a href="mailto:soporte@alfomega.com"><i class="demo-icon icon-phone">&#xe804;</i><span class="mail">soporte@alfomega.com</span></a>
+            -
             <a href="tel:634 89 91"><i class="demo-icon icon-mobile">&#xe805;</i>(57) 1 634 89 91</a>
             <ul class="network">
                 <li><a href=""><i class="demo-icon icon-mobile">&#xe800;</i></a></li>
@@ -124,11 +132,19 @@
 <script src="js/owl.js"></script>
 <script src="js/script.js"></script>
 
-<?php if ( $url == '/contacto' ):?> <script src="js/map.js"></script><?php endif?>
+<?php if ($url == '/contacto'): ?>
+    <script src="js/map.js"></script><?php endif ?>
 <!-- BEGIN JIVOSITE CODE {literal} -->
 <script type='text/javascript'>
-    (function(){ var widget_id = 'zDDYmUsPAg';
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
+    (function () {
+        var widget_id = 'zDDYmUsPAg';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//code.jivosite.com/script/widget/' + widget_id;
+        var ss = document.getElementsByTagName('script')[0];
+        ss.parentNode.insertBefore(s, ss);
+    })();</script>
 <!-- {/literal} END JIVOSITE CODE -->
 
 </body>
