@@ -85,8 +85,18 @@
 
     <div id="banner" class="owl-carousel owl-theme">
 
-        <div class="item" style="background-image: url('images/banner2.jpg') "></div>
-        <div class="item" style="background-image: url('images/banner.jpg') "></div>
+        <div class="item elemenBanner" style="background-image: url('images/banner2.jpg') "></div>
+        <div class="item elemenBanner" style="background-image: url('images/blur.jpg') ">
+            <div class="text-content">
+                <span>Mantenimiento de Pantallas y Televisores</span></div>
+            <div class="images-content">
+                <img src="images/tv1.png" alt="">
+                <img src="images/tv2.png" alt="">
+            </div>
+
+        </div>
+        <div class="item elemenBanner" style="background-image: url('images/banner3.jpg') "></div>
+
 
     </div>
 

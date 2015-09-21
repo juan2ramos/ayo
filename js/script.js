@@ -27,19 +27,36 @@ $(function () {
     }
 
 });
-$("#banner").owlCarousel({
+var owl = $('#banner');
+owl.owlCarousel({
 
-    navigation : true, // Show next and prev buttons
-    slideSpeed : 300,
-    paginationSpeed : 400,
-    singleItem:true,
+    navigation: true, // Show next and prev buttons
+    slideSpeed: 300,
+    paginationSpeed: 400,
+    singleItem: true,
 
     // "singleItem:true" is a shortcut for:
-    items : 1,
-
+    items: 1,
+    autoplay:true,
+    loop: true,
     // itemsDesktop : false,
     // itemsDesktopSmall : false,
     // itemsTablet: false,
     // itemsMobile : false
 
 });
+owl.on(
+    'translated.owl.carousel ', function (e) {
+        $('.images-content').removeClass('show')
+        $('.text-content').removeClass('show')
+        if(e.page.index == 1){
+
+            $('.images-content').addClass('show')
+            $('.text-content').addClass('show')
+
+
+        }
+
+
+
+    });

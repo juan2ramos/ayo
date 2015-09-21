@@ -169,6 +169,7 @@ header {
 
 #banner .item {
     background-size: cover;
+    background-position: center;
     height: calc(100vh - 135px);
     width: 100%;
 }
@@ -183,7 +184,59 @@ header {
     position: absolute;
     width: 100%
 }
+.images-content,.text-content,.images-content img{
+    vertical-align: middle !important;
+    display: inline-block !important;
+    width: 49% !important;
+    transition: all 1s;
 
+}
+.text-content{
+    height: calc(100vh - 195px);
+    opacity: 0;
+}
+.text-content span{
+    padding: 11px;
+    position: relative;
+    display: block;
+    top: 82%;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    background: rgba(0, 62, 106, 0.1);
+}
+.text-content.show span{
+    transform: translateY(-30px);
+}
+.images-content{
+    opacity: 0;
+}
+.text-content.show,.images-content.show{
+    opacity: 1;
+}
+.images-content.show img:last-child{
+
+    transition: all .5s;
+}
+.images-content.show img:first-child{
+
+    transition: all 1s;
+}
+.images-content.show img{
+    transform: translateX(8px);
+}
+
+.images-content img{
+    max-width: 300px !important;
+    transition: all 1s;
+}
+.images-content img:first-child{
+    max-width: 200px !important;
+    position: relative;
+    left: 64px;
+    z-index: 1;
+    top: 24px;
+}
 .brand {
     box-shadow: 0 1px 0 #4485D1;
     bottom: 60px;
@@ -929,4 +982,29 @@ hr {
     .middle figure{
         order: -1;
     }
+}
+
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+    height: 24px;
+    text-align: center;
+}
+
+.owl-dot {
+    height: 14px;
+    width: 14px;
+    z-index: 100;
+    background: rgb(21, 134, 201);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.owl-dot.active {
+
+    background:rgb(255, 255, 255) ;
+    border: 2px solid rgb(21, 134, 201) ;
 }

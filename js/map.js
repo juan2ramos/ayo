@@ -3,19 +3,19 @@ var map;
 function initialize() {
 
 
-    var myLatLng = new google.maps.LatLng(4.6639333,-74.0594072);
+    var myLatLng = new google.maps.LatLng(5.4,-75.8);
     var mapOptions = {
 
         drag: false,
         dragend: false,
         dragstart: false,
-        draggable: false,
+       // draggable: false,
         scrollwheel: false,
         navigationControl: false,
         mapTypeControl: false,
         scaleControl: false,
 
-        zoom: 18,
+        zoom: 8,
         center: myLatLng,
         styles: styleMap
     };
@@ -25,8 +25,15 @@ function initialize() {
 
 
     var myLatLng = new google.maps.LatLng(4.66407,-74.058399);
-    var beachMarker = new google.maps.Marker({
+   new google.maps.Marker({
         position: myLatLng,
+        map: map,
+        icon: image,
+        animation: google.maps.Animation.DROP,
+        content: 'I am the content of this infobox. Wow, what a text.<br><br><a href="#">The good thing is: Tags are also possible</a>'
+    });
+   new google.maps.Marker({
+        position: new google.maps.LatLng(6.214913,-75.576619),
         map: map,
         icon: image,
         animation: google.maps.Animation.DROP,
