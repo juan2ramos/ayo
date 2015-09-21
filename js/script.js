@@ -37,7 +37,7 @@ owl.owlCarousel({
 
     // "singleItem:true" is a shortcut for:
     items: 1,
-    autoplay:true,
+   // autoplay:true,
     loop: true,
     // itemsDesktop : false,
     // itemsDesktopSmall : false,

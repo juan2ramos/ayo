@@ -80,7 +80,7 @@
         </div>
         <div class="column-2">
             <figure>
-                <img src="images/compromiso.png" alt="compromiso">
+                <img src="images/compromiso.jpg" alt="compromiso">
             </figure>
         </div>
     </article>

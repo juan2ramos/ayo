@@ -187,10 +187,11 @@ header {
 .images-content,.text-content,.images-content img{
     vertical-align: middle !important;
     display: inline-block !important;
-    width: 49% !important;
     transition: all 1s;
+    width: 49% !important;
 
 }
+
 .text-content{
     height: calc(100vh - 195px);
     opacity: 0;
@@ -1007,4 +1008,31 @@ hr {
 
     background:rgb(255, 255, 255) ;
     border: 2px solid rgb(21, 134, 201) ;
+}
+@media (max-width: 800px) {
+
+    .images-content,.text-content{
+        width: 100% !important;
+
+    }
+    .images-content{
+        text-align: center;
+    }
+    .text-content{
+        height: 105px;
+
+    }
+    .text-content span{
+        height: auto;
+        top: 35px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .images-content img:first-child{
+        max-width: 100px !important;
+        left: 30px;
+    }
+    .images-content img:last-child{
+        left: -25px;
+    }
 }
