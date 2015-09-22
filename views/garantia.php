@@ -10,6 +10,39 @@
 
     <h3>Políticas de Garantia</h3>
     <ul>
+
+        <li>
+            <div class="content-li">
+                <a href="http://www.samsung.com/co/support/warranty/" target="_blank">
+                    <figure>
+                        <img src="images/samsung-logo.png" alt=""></figure>
+                </a>
+
+                <p>Audio, video, monitores e impresoras.</p>
+            </div>
+        </li>
+
+        <li>
+            <div class="content-li">
+                <a href="http://support.toshiba.com/support/home?locale=es_CO&source=ltc" target="_blank">
+                    <figure>
+                        <img src="images/toshiba-logo.png" alt=""></figure>
+                </a>
+
+                <p> Portátiles y tablets.</p>
+            </div>
+        </li>
+
+        <li>
+            <div class="content-li">
+                <a href="https://www.lg.com/co/soporte/servicio-tecnico/solicite-reparacion" target="_blank">
+                    <figure>
+                        <img src="images/lg-logo.png" alt=""></figure>
+                </a>
+
+                <p>Monitores.</p>
+            </div>
+        </li>
         <li>
             <div class="content-li">
                 <a href="http://co.aoc.com/support/warranty" target="_blank">
@@ -31,34 +64,15 @@
                 </a>
             </div>
         </li>
+
         <li>
             <div class="content-li">
-                <a href="https://www.lg.com/co/soporte/servicio-tecnico/solicite-reparacion" target="_blank">
+                <a href="http://www.elotouch.com.ar/Soporte/default.asp" target="_blank">
                     <figure>
-                        <img src="images/lg-logo.png" alt=""></figure>
+                        <img src="images/elo-logo.png" alt=""></figure>
                 </a>
 
-                <p>Monitores.</p>
-            </div>
-        </li>
-        <li>
-            <div class="content-li">
-                <a href="http://www.samsung.com/co/support/warranty/" target="_blank">
-                    <figure>
-                        <img src="images/samsung-logo.png" alt=""></figure>
-                </a>
-
-                <p>Audio, video, monitores e impresoras.</p>
-            </div>
-        </li>
-        <li>
-            <div class="content-li">
-                <a href="http://support.toshiba.com/support/home?locale=es_CO&source=ltc" target="_blank">
-                    <figure>
-                        <img src="images/toshiba-logo.png" alt=""></figure>
-                </a>
-
-                <p> Portátiles y tablets.</p>
+                <p>Touchscreen y monitores touch.</p>
             </div>
         </li>
         <li>
@@ -69,16 +83,6 @@
                 </a>
 
                 <p>Tablets, Monitores y Proyectores.</p>
-            </div>
-        </li>
-        <li>
-            <div class="content-li">
-                <a href="http://www.elotouch.com.ar/Soporte/default.asp" target="_blank">
-                    <figure>
-                        <img src="images/elo-logo.png" alt=""></figure>
-                </a>
-
-                <p>Touchscreen y monitores touch.</p>
             </div>
         </li>
     </ul>
