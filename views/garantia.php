@@ -63,7 +63,7 @@
         </li>
         <li>
             <div class="content-li">
-                <a href="" target="_blank">
+                <a href="http://www.viewsonic.com/la/soporte/garantias/" target="_blank">
                     <figure>
                         <img src="images/viewsonic-logo.png" alt=""></figure>
                 </a>
@@ -73,7 +73,7 @@
         </li>
         <li>
             <div class="content-li">
-                <a href="http://www.viewsonic.com/la/soporte/garantias/" target="_blank">
+                <a href="http://www.elotouch.com.ar/Soporte/default.asp" target="_blank">
                     <figure>
                         <img src="images/elo-logo.png" alt=""></figure>
                 </a>

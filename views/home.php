@@ -104,10 +104,10 @@
     <h3>Testimonios</h3>
 
     <div class="testimonials-c">
-        <article>
+        <article><!--
             <span>"</span>Ofrecemos a nuestros Clientes la garantía de un servicio realizado con repuestos 100%
             originales adquiridos directamente de los fabricantes, ciclos de pruebas de calidad en cualquier tipo de
-            reparación, y la experiencia de mas de 26 años en el medio.
+            reparación, y la experiencia de mas de 26 años en el medio.-->
             <span>"</span>
 
             <div class="triangulo_top_left"></div>
